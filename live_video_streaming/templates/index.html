@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Live Streaming</title>
+</head>
+<body>
+    <h1>Live Streaming</h1>
+    <div class="stream-container">
+        <img src="{{ url_for('video') }}" alt="Live Stream">
+        <p>Experience live streaming directly from my laptop's camera. Stay tuned!</p>
+    </div>
+    <footer>
+        Posted by <a href="https://www.linkedin.com/in/kothamasu-guru-charan-747322280/" target="_blank">Kothamasu Guru Charan</a>
+    </footer>
+</body>
+</html>
