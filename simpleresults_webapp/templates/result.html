@@ -1,0 +1,14 @@
+<html>
+    <h2>Sem Results</h2>
+    <body>
+        <table border=2>
+       {% for key, value in result.items() %}
+       <tr>
+        {# this section is a comment section #}
+        <th>{{ key }}</th>
+        <th>{{ value }}</th>
+       </tr>
+       {% endfor %}
+        </table>
+    </body>
+</html>
