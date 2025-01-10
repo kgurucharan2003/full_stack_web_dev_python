@@ -1,0 +1,1 @@
+alert("Real-Time Face Recognition page has been loaded Successfully")
